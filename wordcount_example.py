@@ -5,6 +5,10 @@ import re
 WORD_RE = re.compile(r"[\w']+")
 
 
+"""
+Code này lấy từ trang chủ hướng dẫn để học thư viện mrjob
+"""
+
 class MRWordCountBasic(MRJob):
     """
     Giải thích code của thư viện : 
